@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @model List<Booking>
+
+            <h2>Booking List</h2>
+
+            <ul>
+                @foreach (var booking in Model)
+                {
+                    <li>@booking.CustomerName - @booking.BookingTime</li>
+                }
+            </ul>
+
+    </div>
+</body>
+</html>

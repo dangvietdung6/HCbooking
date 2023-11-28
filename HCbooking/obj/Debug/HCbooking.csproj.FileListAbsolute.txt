@@ -1,0 +1,2 @@
+F:\Microsoft Visual Studio\source\repos\HCbooking\HCbooking\obj\Debug\HCbooking.csprojAssemblyReference.cache
+F:\Microsoft Visual Studio\source\repos\HCbooking\HCbooking\obj\Debug\HCbooking.csproj.CoreCompileInputs.cache

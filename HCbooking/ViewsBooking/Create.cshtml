@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @model Booking
+
+        <h2>Book a Haircut</h2>
+
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="CustomerName">Customer Name:</label>
+                <input asp-for="CustomerName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingTime">Booking Time:</label>
+                <input asp-for="BookingTime" type="datetime-local" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Book Now</button>
+        </form>
+
+    </div>
+</body>
+</html>
